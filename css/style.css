@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+ul{
+    list-style-type:none;
+}
+
+li{
+    display: inline;
+}
+
+.flex{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#top-menu{
+    position:fixed;
+    top:5px;
+    right:0;
+}
+
+#top-menu li{
+    background-color: rgb(74,74,74);
+    border-radius: 5px;
+    padding:5px;
+}
+
+#top-menu li:first-child{
+    margin-right:5px;
+}
+
+.container{
+    margin:4%;
+}
+
+.user{
+    padding-right:5px;
+    position: relative;
+    margin: 5px 0;
+}
+
+.user-status{
+    position:absolute;
+    bottom:3px;
+    left:0;
+    background-color: rgb(102,114,123);
+    padding:5px;
+
+}
+
+.user-status li:first-child{
+    padding-right:5px;
+}
+
+footer{
+    position:fixed;
+    bottom:0;
+    background-color: rgb(34,34,34);
+    width:100%;
+}
+
+.spaced-between{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.audio-video-input li{
+    margin:0 5px;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:10px;
+}
+
+.user-actions li{
+    margin:0 5px;
+}
+
+.user-actions li .fas, .audio-video-input li .fas{
+    font-size:25px;
+    margin-bottom:10px;
+}
+
+#chevron{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+#little{
+    font-size:12px;
+}
+
+#highlighted{
+    color:green;
+}
+
+.button{
+    background-color: rgb(74,74,74);
+    color:red;
+    padding:27px;
+}
